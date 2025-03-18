@@ -47,8 +47,8 @@ prompt_template = """
 # 下面我会给你描述图片的话：
 # """
 
-# DeepSeek API 密钥
-api_key = 'sk-8ab3d3036ae64f91b50879bd97fa49de'
+# DeepSeek API 密钥，输入你的密钥！
+api_key = ''
 
 client = OpenAI(api_key=api_key, base_url="https://api.deepseek.com")
 
